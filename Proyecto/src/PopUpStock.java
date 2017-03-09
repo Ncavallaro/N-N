@@ -5,7 +5,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JTextField;
 
-
+//Con git funciona
 public class PopUpStock extends JFrame{
 	private JLabel titulo;
 	private JList lista;
