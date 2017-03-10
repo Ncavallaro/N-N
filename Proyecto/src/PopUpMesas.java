@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 
 public class PopUpMesas extends JFrame{
 	private JLabel titulo;
-	private JList lista;
+	private JLabel lista;
 	private JTextField pedido;
 	public PopUpMesas(){
 		configurarPopUp("Configure su mesa",400,400);
@@ -27,7 +27,7 @@ public class PopUpMesas extends JFrame{
 	
 	public void inicializarComponentes(){
 		titulo = new JLabel();
-		lista = new JList();
+		lista = new JLabel();
 		pedido = new JTextField(20);
 		String textPedido = pedido.getText();
 		titulo.setText("Cargue el pedido");
@@ -36,7 +36,7 @@ public class PopUpMesas extends JFrame{
 		this.add(titulo);
 		this.add(pedido);
 		BotonCancelar cancelar = new BotonCancelar(150, 300, this);
-		BotonSubir subir = new BotonSubir(250, 300, this);
+		BotonSubir subir = new BotonSubir(250, 300,lista,pedido ,this);
 		
 	}
 	

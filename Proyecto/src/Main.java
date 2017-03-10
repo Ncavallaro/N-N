@@ -6,7 +6,6 @@ public class Main {
 		ventanaPrincipal.setVisible(true);             // hacemos visible la ventana creada
 		
 		
-		
 
 	}
 

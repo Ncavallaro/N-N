@@ -22,7 +22,7 @@ public class VentanaPrincipal extends JFrame {
     //private JButton boton1;
     //private JButton botonActual;
     private Boolean estado;
-    PopUpStock popUpStock = new PopUpStock();
+    PopUpStock popUpStock = new PopUpStock();  //creo la ventana del stock
     
 	//constructor
 	public VentanaPrincipal() {
@@ -53,7 +53,7 @@ public class VentanaPrincipal extends JFrame {
 				new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent e) {
-						popUpStock.setVisible(true);
+						popUpStock.setVisible(true); //hago visible la ventana del stock
 					}
 		});
        // boton.addActionListener(this);      // hacemos que el boton tenga una accion y esa accion estara en esta clase
